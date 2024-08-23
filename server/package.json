@@ -4,7 +4,8 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "swagger": "node ./swagger.js"
   },
   "keywords": [],
   "author": "",
@@ -32,6 +33,8 @@
     "prisma": "^5.17.0",
     "sequelize": "^6.37.3",
     "stripe": "^16.4.0",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1",
     "uuid": "^10.0.0"
   },
   "devDependencies": {
